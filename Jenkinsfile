@@ -1,3 +1,4 @@
+{
 stage('Build') {
 sh '''echo  stage1 steps'''
 }
