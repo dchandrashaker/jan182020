@@ -1,3 +1,4 @@
+node('slave2')
 {
 stage('Build') {
 sh '''echo  stage1 steps'''
