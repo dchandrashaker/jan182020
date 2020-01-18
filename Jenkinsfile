@@ -1,3 +1,4 @@
+node('slave2')
 pipeline {
     agent any
 
