@@ -1,6 +1,6 @@
-node('slave1')
+
 pipeline {
-    agent any
+    agent { dockerfile true }
 
     stages {
         stage('Build') {
